@@ -47,6 +47,11 @@ form {
   box-shadow: 0.5px 0.5px 5px rgb(143, 139, 139);
 }
 
+form input:focus {
+  outline: 5px solid green;
+  outline-offset: 20px;
+}
+
 form input {
   background-color: rgb(232, 226, 226);
   border: 1px solid gray;
